@@ -1,0 +1,156 @@
+/***********************************Tag Selector********************************************/
+body{
+  color: #40514E;
+margin: 0;
+text-align: center;
+font-family: 'Merriweather', serif;
+  }
+  h1{
+
+    margin: 2.6rem auto 0 auto;
+    text-align: center;
+    font-family: 'Sacramento', cursive;
+    font-size:5.625rem;       /**** 16px=100%=1em**/
+    color: #66BFBF;
+
+  }
+  h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    margin: 0 auto 0 auto;
+    color: #66BFBF;
+    font-weight: normal;
+    line-height: 1;
+  }
+  h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+  }
+  a{
+    color: #11999E;
+    padding: 2%;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+  }
+  a:hover{
+    color: #EAF6F6;
+  }
+  hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #EAF6F6;
+    border-width: 0.5rem;
+    width: 5rem;
+
+  }
+  p{
+    line-height: 2;
+  }
+  /********************************Class Selector********************************************/
+  .top-container{
+  background-color: #E4F6F6;
+  position: relative;
+  padding: 10%;
+}
+.profile{
+  margin: 2.5rem auto 2.5rem auto;
+}
+.middle-container{
+  padding: 2.5rem 0 0 0;
+}
+.bottom-container{
+  background-color: #66BFBF;
+  margin: 0;
+  padding: 3.5% 2% 0.01% 2%;
+}
+.profile-paragraph{
+  width: 25rem;
+  margin: auto;
+
+}
+.profile-head{
+  padding: 3rem 0 3rem 0;
+}
+.skills{
+  margin: 2.5rem auto 2.5rem auto;
+}
+.skill-row{
+  width: 50%;
+ margin: 4.5rem auto 4.5rem auto;
+ text-align: left;
+
+}
+.cloud-bottom{
+  position: absolute;
+  bottom: 50%;
+left: 18%;
+}
+.cloud-top{
+  position: absolute;
+  top: 10%;
+  right: 20%;
+}
+.penguin{
+  width: 5%;
+  height: 8%;
+  position: absolute;
+  top: 5%;
+  left: 10%;
+}
+.profile-image{
+  border-radius: 100%;
+}
+.skill-image{
+  height: 15%;
+  width: 20%;
+  float: left;
+  margin-right: 2rem;
+}
+.foodie-image{
+  height: 15%;
+  width: 20%;
+  float: right;
+  margin-left: 2rem;
+}
+.skill-h2{
+  color: #66BFBF;
+}
+.foodie-h3{
+  color: #11999E;
+}
+.sign-paragraph{
+  color: #EAF6F6;
+  padding: 1.5rem 0;
+  font-size: 0.75rem;
+
+}
+.contact-me{
+   margin: 4.5rem auto 4.5rem auto;
+}
+
+.contact-paragraph{
+  margin: 2.5rem auto 2.5rem auto;
+}
+.myButton {
+	box-shadow: 0 10 14px -7px #276873;
+	background:linear-gradient(to bottom, #30e3cb 5%, #2bc4ad 100%);
+	background-color:#30e3cb;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.25rem;
+	font-weight:bold;
+	padding:2px 25px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #3d768a;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #2bc4ad 5%, #30e3cb 100%);
+	background-color:#2bc4ad;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
